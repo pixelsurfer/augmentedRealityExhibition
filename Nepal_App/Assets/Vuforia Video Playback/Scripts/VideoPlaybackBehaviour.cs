@@ -213,7 +213,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
                     int nativeTextureID = mVideoTexture.GetNativeTextureID();
                     mVideoPlayer.SetVideoTextureID(nativeTextureID);
 
-                    // Get the video width and height
+                    /* Get the video width and height
                     int videoWidth = mVideoPlayer.GetVideoWidth();
                     int videoHeight = mVideoPlayer.GetVideoHeight();
 
@@ -224,7 +224,7 @@ public class VideoPlaybackBehaviour : MonoBehaviour
 
                         // Flip the plane as the video texture is mirrored on the horizontal
                         transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f * aspect);
-                    }
+                    }*/
 
                     // Seek ahead if necessary
                     if (mSeekPosition > 0)
