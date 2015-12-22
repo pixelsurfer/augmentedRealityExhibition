@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="7b" size="540.000000 361.117371" />
+    <ImageTarget name="Pokhara" size="1654.000000 1104.820312" />
+    <ImageTarget name="Patan" size="1654.000000 1109.666016" />
+    <ImageTarget name="Nepalgunj" size="1654.000000 1103.205078" />
+    <ImageTarget name="Chitre" size="1654.000000 1114.511719" />
   </Tracking>
 </QCARConfig>
